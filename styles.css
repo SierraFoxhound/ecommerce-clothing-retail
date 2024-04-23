@@ -533,3 +533,16 @@ footer .copyright {
 }
 
 /* Shop Page */
+
+/* Cart Page */
+
+
+/* Start Media Query */
+
+@media (max-width: 799px) {
+    #navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
