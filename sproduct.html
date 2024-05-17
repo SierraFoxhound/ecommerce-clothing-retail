@@ -51,8 +51,93 @@
             </div>
         </div>
 
-        <div>
+        <div class="single-pro-details">
+            <h6>Home / T-Shirt</h6>
+            <h4>Men's Fashion T-Shirt</h4>
+            <h2>$139.00</h2>
+            <select>
+                <option>Selct Size</option>
+                <option>XXL</option>
+                <option>XL</option>
+                <option>Large</option>
+                <option>Medium</option>
+                <option>Small</option>
+            </select>
+            <input type="number" Value="1">
+            <button class="normal">Add To Cart</button>
+            <h4>Product Details</h4>
+            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti maxime vel enim sequi esse voluptate ratione nisi hic assumenda, itaque voluptas, quasi dignissimos necessitatibus accusamus, laboriosam ipsa quas! Earum, inventore!</span>
+        </div>
+    </section>
 
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Summer Collection New Modern Design</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="./imgs/products/n1.jpg" alt="">
+                <div class="des">
+                    <span>Addidas</span>
+                    <h5>Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="./imgs/products//n2.jpg" alt="">
+                <div class="des">
+                    <span>Addidas</span>
+                    <h5>Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="./imgs/products/n3.jpg" alt="">
+                <div class="des">
+                    <span>Addidas</span>
+                    <h5>Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="./imgs/products/n4.jpg" alt="">
+                <div class="des">
+                    <span>Addidas</span>
+                    <h5>Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
         </div>
     </section>
 
@@ -119,6 +204,24 @@
             <p>© 2024,sierradevsoto - HTML CSS Eccommerce Template</p>
         </div>
     </footer>
+
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallImg = document.getElementsByClassName("small-img");
+
+        smallImg[0].onclick = function() {
+            MainImg.src = smallImg[0].src;
+        }
+        smallImg[1].onclick = function() {
+            MainImg.src = smallImg[1].src;
+        }
+        smallImg[2].onclick = function() {
+            MainImg.src = smallImg[2].src;
+        }
+        smallImg[3].onclick = function() {
+            MainImg.src = smallImg[3].src;
+        }
+    </script>
 
     <script src="script.js"></script>
 </body>
