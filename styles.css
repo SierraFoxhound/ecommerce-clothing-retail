@@ -715,6 +715,38 @@ footer .copyright {
 
 
 /* About Page */
+#page-header.about-header {
+    background-image: url("imgs/about/banner.png")
+}
+
+#about-header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#about-header img {
+    width: 50%;
+    height: auto;
+}
+
+#about-app {
+    text-align: center;
+}
+
+#about-app .video {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#about-app .video video {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
 
 /* Contact Page */
 
@@ -931,4 +963,18 @@ footer .copyright {
         object-fit: cover;
     }
 
+    /*About Page*/
+
+    #about-header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #about-header img {
+        width: 100%;
+    }
+
+    #about-app .video {
+        width: 100%;
+    }
 }
