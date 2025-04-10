@@ -1242,12 +1242,16 @@ footer .copyright {
         margin-bottom: 30px;
     }
 
+    #cart-add {
+        width: 90%;
+    }
+
     #coupon {
         width: 100%;
     }
 
     #subtotal {
-        width: 100%;
-        padding: 20px;
+        width: 90%;
+        padding: 10px;
     }
 }
